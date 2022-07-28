@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How I became a quant"
+date: 2022-07-25
 categories: personal
 ---
 
