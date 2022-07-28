@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Musings of a buy-side quant
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://quantmuse.net" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
+email: quantmuse@proton.me
 github_username: "quantmuse"
 
 # Build settings
