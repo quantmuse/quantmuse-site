@@ -4,8 +4,6 @@ title:  "How I became a quant"
 categories: personal
 ---
 
-This website serves to share posts about how to develop a quant career, interesting ideas in finance, investment, mathematics or programming. 
-
 This is the first post of many. 
 
 To answer an existential question of the website, how did I became a quant? 
