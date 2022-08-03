@@ -25,11 +25,10 @@ First, why do we need to understand this? Simply put, in an uncertain world, und
 Given that this is the first chapter, this lays the foundation for the more advanced topics such as risk-neutral pricing. 
 
 One of the first concepts you'll encounter in this chapter is **probability space**, which is a container with three key elements:
-    <ul>
-    <li>The universe (otherwise known as a *set*); </li>
-    <li>*Collection of the subsets* of this universe; </li>
-    <li>And the *probability* that maps these subsets to the interval [0,1] </li>
-    </ul>
+    
+    - The universe (otherwise known as a *set*);
+    - *Collection of the subsets* of this universe;
+    - And the *probability* that maps these subsets to the interval [0,1]     
 
 There are a few rules or guiding principles around these probability spaces, the key ones are P(all events) = 1 and the total probability of disjointed sets (no overlap) should be the sum of the individual probabilities. 
 
@@ -41,7 +40,7 @@ Another key concept in this chapter is to think in terms of *intervals* instead 
 
 When we slice the interval [0,1] thin enough, the probabilty of a single point happening is close to zero, but when we start to consider intervals between two points, we can start to assign probability in the form of density or area under graph.
 
-Calculating expectations in a discrete world is relatively straightforward: suppose we play a coin flip game with a stranger who offers to pay us $1 in the event of a Head or take $1 from us in the event of a Tail. The expectations of this game is simply $ 0.5* 1 + 0.5 * -1 = 0$. 
+Calculating expectations in a discrete world is relatively straightforward: suppose we play a coin flip game with a stranger who offers to pay us $1 in the event of a Head or take $1 from us in the event of a Tail. The expectations of this game is simply $0.5* 1 + 0.5 * -1 = 0$. 
 
 Applying this logic to an uncountable and infinite probability space, we need to turn to integrals of a continuous function to calculate expectations. 
 
@@ -49,7 +48,10 @@ The way we can do this is through either Riemann integral or Lebesgue integral. 
 
 We have now arrived at one of the most important (I think!) section of this chapter, which introduces the Radon-Nikodym derivative. This is where we are introduced to the two different worlds -- one **real** and one termed **risk-netural** -- that have separate probability spaces. 
 
-The Radon-Nikodym derivative is the link connecting these two, and is basically the ratio of the different probabilities/densities. Formally, the formula is $Z = d\hat{P}/ dP$, where $\hat{P}$ represents the risk-netural probability. 
+The Radon-Nikodym derivative is the link connecting these two, and is basically the ratio of the different probabilities/densities. 
+
+Formally, the formula is:
+ $$\Z = d\hat{P}/dP$$, where $\hat{P}$ represents the risk-netural probability. 
 
 An excellent blogpost by [YouFinance](https://youfinanceblog.wordpress.com/2018/03/31/the-radon-nikodym-derivative/) explains this clearly. 
 
