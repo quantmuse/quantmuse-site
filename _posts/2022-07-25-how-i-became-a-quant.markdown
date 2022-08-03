@@ -43,7 +43,7 @@ Back in those days, my only resources were programming books in bookstores, whic
 
 Well, with this latest realisation, I found my combination. I vowed to reignite this long-lost childhood passion of mine and get good at programming too! Like many others, I did not know how to start as there were simply too many resources available. 
 
-After some struggle, however, I eventually set down some time daily (you have to put in the work!) and finished my very first track on DataCamp -- [Quantiative Analyst with R](https://www.datacamp.com/tracks/quantitative-analyst-with-r) -- hooray! I am ready for my quant job now. 
+After some struggle, however, I eventually set down some time daily (you have to put in the work!) and finished my very first track on DataCamp -- [Quantitative Analyst with R](https://www.datacamp.com/tracks/quantitative-analyst-with-r) -- hooray! I am ready for my quant job now. 
 
 Except, not quite. 
 
