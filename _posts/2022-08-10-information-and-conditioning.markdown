@@ -33,13 +33,13 @@ Mathematically, one interesting observation is that if the random variables X an
 
 We now turn to the second key term of this chapter, which is *conditioning*. 
 
-The key term *conditional expectation* is denoted as $E[X|G]$. The implication of this definition is two-fold. First, conditional expectation of X given G is G-measurable. Second, the *partial averaging* property ensures that the conditional expectation is a good estimator of X if G has many sets (because it provides a fine resolution - recall our earlier paragraph on filtration) and it is a crude estimator if G only has a few sets (i.e. not enough information).
+The key term *conditional expectation* is denoted as $E[X \mid G]$. The implication of this definition is two-fold. First, conditional expectation of X given G is G-measurable. Second, the *partial averaging* property ensures that the conditional expectation is a good estimator of X if G has many sets (because it provides a fine resolution - recall our earlier paragraph on filtration) and it is a crude estimator if G only has a few sets (i.e. not enough information).
 
 Having gone through the length of defining all these, we now reach the end of the chapter to the two most important terms that will be widely used in the rest of the book: *martingale* and a *Markov process*.
 
-We can say a process if a martingale if E[M(t) | F(s)] = M(s), where $0 \leq s \leq t$ and M is an adapted stochastic process. If we know the value of M at time s, the expected value of M at time t is likely to be the same. This means M has no tendency to rise or fall. 
+We can say a process if a martingale if $E[M(t) \mid F(s)] = M(s)$, where $0 \leq s \leq t$ and M is an adapted stochastic process. If we know the value of M at time s, the expected value of M at time t is likely to be the same. This means M has no tendency to rise or fall. 
 
-X is a Markov process if E[f(X(t)) | F(s)] = g(X(s)), where $0 \leq s \leq t$. The implication of a Markov process is that the estimate of f(X(t)) made at time s depends only on the process value X(s) _at time s_ and not on the path of the process before that. 
+X is a Markov process if $E[f(X(t)) \mid F(s)] = g(X(s))$, where $0 \leq s \leq t$. The implication of a Markov process is that the estimate of f(X(t)) made at time s depends only on the process value X(s) _at time s_ and not on the path of the process before that. 
 
 This chapter has been rather heavy on definitions and proofs (which I have mostly skipped here), but these are key building blocks for the upcoming chapters. The author promised some examples on martingales and Markov process after the introduction of Brownian motion and Ito integrals, so hopefully these concepts will help later in the book. 
 
