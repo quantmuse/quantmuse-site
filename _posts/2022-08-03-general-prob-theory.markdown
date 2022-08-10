@@ -39,7 +39,7 @@ Another key concept in this chapter is to think in terms of *intervals* instead 
 
 When we slice the interval [0,1] thin enough, the probabilty of a single point happening is close to zero, but when we start to consider intervals between two points, we can start to assign probability in the form of density or area under graph.
 
-Calculating expectations in a discrete world is relatively straightforward: suppose we play a coin flip game with a stranger who offers to pay us \$1 in the event of a Head or take \$1 from us in the event of a Tail. The expectations of this game is simply $0.5* 1 + 0.5 * -1 = 0$. 
+Calculating expectations in a discrete world is relatively straightforward: suppose we play a coin flip game with a stranger who offers to pay us a dollar in the event of a Head or take a dollar from us in the event of a Tail. The expectations of this game is simply $0.5* 1 + 0.5 * -1 = 0$. 
 
 Applying this logic to an uncountable and infinite probability space, we need to turn to integrals of a continuous function to calculate expectations. 
 
