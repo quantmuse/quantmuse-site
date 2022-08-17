@@ -23,7 +23,7 @@ The variation simply measures the magnitude of the swing from its zero line. Fur
 
 To sum up the total variation of the pendulum, we could add up the absolute distance from zero line at each time T, and this is known as the **first-order** variation. 
 
-The quadratic variation, then, is defined as the square of the first-order variation. In the introduction to this chapter, the author mentioned that the "*notion of qudratic variation is profound ... it makes stochastic calculus different from ordinary calculus*"
+The quadratic variation, then, is defined as the square of the first-order variation. In the introduction to this chapter, the author mentioned that the "*notion of qudratic variation is profound ... it makes stochastic calculus different from ordinary calculus*".
 
 If the first-order variation can be rewritten as the sum of all absolute differences of the variation, then the quadratic variation is merely the sum of the square of the differences. 
 
@@ -35,6 +35,6 @@ Another key concept to know about a Brownian motion is that it is a martingale, 
 
 Last but not least, Brownian motion is also a Markov process, as the only information from filtration $F_s$ that is relevant is the value of Brownian motion W(s). In case you need to refresh your memory on martingale and Markov process, this article here by [quantstart](https://www.quantstart.com/articles/The-Markov-and-Martingale-Properties/) may be helpful.
 
-As usual, I hve skipped past all the proofs and trying to distill the key concepts in this chapter. The key takeaways here are that Brownian motion is a martingale, a Markov process, continuous, with increments that have 0 expectation and variance of t-s, and most importantly the concept that a Brownian motion *accumulates* quadratic variation (square of first-order variation, which in turn is the sum of absolute variation) to the sum of lenngth T, *regardless of its path*. 
+As usual, I hve skipped past all the proofs and trying to distill the key concepts in this chapter. The key takeaways here are that Brownian motion is a martingale, a Markov process, continuous, with increments that have 0 expectation and variance of t-s, and most importantly the concept that a Brownian motion *accumulates* quadratic variation (square of first-order variation, which in turn is the sum of absolute variation) to the sum of length T, *regardless of its path*. 
 
 The goal is that by the end of the six-chapter series, we will have the tools and foundation that we need to understand stochastic calculus for finance, and most importantly, on knowing how to apply these concepts. 
