@@ -37,7 +37,7 @@ rc(t,x) = $c_{t}$ (t,x) + rx$c_{x}$ (t,x) + $\frac{1}{2}$$ c_x$ $\sigma^2$ $x^2$
 
 The formula above looks similar to the Ito-Doeblin formula above in terms of the fraction and the second-order differential term. 
 
-For a video of the PDE derivation, once again you may refer to this video by [QuantPy](https://www.youtube.com/watch?v=6LhV32OIZ1Y)
+For a video of the PDE derivation, once again you may refer to this video by [QuantPy](https://www.youtube.com/watch?v=6LhV32OIZ1Y).
 
 In this chapter, one learned that the Ito-Doeblin formula is a key foundation of stochastic formula. Its "signature" is the one-half fraction and the second-order differential, which gives rise to the diffusion term (or called "smaller error" in the book) that differentiates stochastic calculus from ordinary calculus. 
 
