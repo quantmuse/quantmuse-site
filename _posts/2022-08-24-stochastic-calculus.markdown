@@ -15,7 +15,7 @@ Using Taylor series expansion and some substitution tricks, the end result is th
 
 In formula form, this can be written as: 
 
-df(t, X(t)) = $f_{t}$(t,X(t))dt + $f_{x}$(t,X(t))dX(t) + $\frac{1}{2}f_xx(t,X(t))dX(t)dX(t)$
+df(t, X(t)) = $f_{t}$(t,X(t))dt + $f_{x}$(t,X(t))dX(t) + $\frac{1}{2}f_{xx}(t,X(t))dX(t)dX(t)$
 
 The last term is also known as the diffusion term, which is the part that give stochastic calculus its "unpredictability".
 
