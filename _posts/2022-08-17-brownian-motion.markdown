@@ -13,7 +13,7 @@ This chapter is arguably one of the most important ones of the book, as Brownian
 
 At its heart, Brownian motion can be thought of as a continuous, stochastic process with increments at each time-step t. 
 
-Each of these increments are **independent** and **normally-distributed** with $E[W_t_(i+1) - W_t] = 0$ and $Var[W_t_(i+1) - W_t] = t_(i+1) - t_i$
+Each of these increments are **independent** and **normally-distributed** with $E\[W_t_(i+1) - W_t\] = 0$ and $Var\[W_t_(i+1) - W_t\] = t_(i+1) - t_i$
 
 One of the most profound properties of Brownian motion is that it **accumulates quadratic variation at the rate of one per unit time**. What does that mean? 
 
